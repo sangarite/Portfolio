@@ -1,18 +1,17 @@
 const greeting = {
-    title: "Your Name",
+    title: "Ruchama Diamond",
     logo_name: "Name",
-    subTitle:
-    "subTitle."
+    subTitle: "Full Stack Developer"
 };
 const socialMedia = {
     facebook: "Your facebook link",
     twitter: "Your twitter link",
     instagram: "Your instagram link",
-    github: "Your github link",
+    github: "github.com/sangarite",
     gitlab: "Your gitlab link",
     devto: "Your devto link",
-    mailto: "mailto:Your mail",
-    linkedin: "Your linkedin link"
+    mailto: "ruchama355@gmail.com",
+    linkedin: "linkedin.com/in/ruchama-diamond-7935471b8"
 };
 const about = {
     School: "Your School Name",
@@ -27,7 +26,7 @@ const Skill = {
     Html: true,
     css: true,
     js: true,
-    node: false
+    node: true
 }
 const projects = [
     {
