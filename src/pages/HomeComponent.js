@@ -7,12 +7,12 @@ class Home extends Component {
     render() {
       return (
         <div>
-        <Nav/>
-        <Main />
-        <Footer/>
+          <Nav/>
+          <Main />
+          <Footer/>
         </div>
       );
     }
   }
-  
+
   export default Home;

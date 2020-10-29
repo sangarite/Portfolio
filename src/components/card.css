@@ -1,23 +1,32 @@
-.card{
+.card {
     width: 300px;
-    background-color: #324a58;
+    background-color: #3F3D56;
     opacity: 1;
     padding: 10px;
     margin: 30px;
     border-radius: 20px;
-    color: white;
+    color: #E6E6E6;
     box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: scale 0.5s;
 }
-img{
+
+img {
     width: 100%;
     border-radius: 20px;
 }
-.project{
+
+.project {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.project :hover{
-    scale: 1.05;
+
+.card > a {
+  color: #E6E6E6;
+  display: block;
+  padding: 10px;
+}
+
+.card :hover {
+  text-decoration: underline;
 }

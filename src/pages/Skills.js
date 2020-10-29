@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer'
 import DevTool from '../components/DevTool';
-import Designtool from '../components/DesignTool'
-import skills from '../assets/img/skill.svg'
+import skills from '../assets/img/skills.svg'
 
 class Skills extends Component {
     render() {
@@ -11,17 +10,15 @@ class Skills extends Component {
         <div>
           <Nav/>
           <div className="main">
-          <div className="text-part" >
-          <div className="text">
-          <h1><span role="img" aria-label="Heart">⚡</span> Full Stack Development</h1>
-          <DevTool />
-          <h1><span role="img" aria-label="Heart">⚡</span> Design</h1>
-          <Designtool />
+            <div className="text-part" >
+              <div className="text">
+                <h1>Full Stack Development</h1>
+                <DevTool />
+              </div>
             </div>
-          </div>
-          <div className="img-part" >
-            <img src={skills} alt="Skills" />
-          </div>
+            <div className="img-part" >
+              <img src={skills} alt="Skills" />
+            </div>
           </div>
           <br/>
           <Footer/>
@@ -29,5 +26,5 @@ class Skills extends Component {
       );
     }
   }
-  
+
   export default Skills;

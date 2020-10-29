@@ -1,9 +1,8 @@
-.foot{
+.foot {
     bottom: 0;
 }
-span{
-    color: red;
-}
-a{
+
+a {
     text-decoration: none;
+    color: black;
 }

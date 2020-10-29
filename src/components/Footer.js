@@ -1,24 +1,15 @@
 import React, { Component } from "react";
-import { greeting } from '../Name';
 import './footer.css'
 
 class Footer extends Component {
     render() {
       return (
         <div className="foot">
-          
- 
-          {/* All the links in the footer should remain intact.
-          You can delete the links only if you Have permission.
-          Licensing information: https://github.com/vimalverma558/Master-Portfolio/blob/master/LICENSE  
-          https://github.com/vimalverma558/Master-Portfolio */}
-
-
-          <p>Made with <a href="https://github.com/vimalverma558/Master-Portfolio">Master-Portfolio</a> <span role="img" aria-label="Heart"> ❤️ </span> by { greeting.title } </p>
-          
+          Made with <a href="https://github.com/vimalverma558/Master-Portfolio">Master-Portfolio</a><br/>
+          Some icons are made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
         </div>
       );
     }
   }
-  
+
   export default Footer;

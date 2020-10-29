@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  background-color: #edf9fe;
+  background-color: #CEC2FF;
   min-height: 100vh;
-  font-family: 'LibreBaskerville-Bold';
+  font-family: 'NotoSans-Regular';
 }
 
 .App-logo {
@@ -40,14 +40,14 @@
   }
 }
 @font-face {
-  font-family: 'LibreBaskerville-Italic';
-  src: local('MyFont'), url(./assets/fonts/LibreBaskerville-Italic.ttf) format('woff');
+  font-family: 'NotoSans-Italic';
+  src: local('MyFont'), url(./assets/fonts/NotoSans-Italic.ttf) format('woff');
 }
 @font-face {
-  font-family: 'LibreBaskerville-Bold';
-  src: local('MyFont'), url(./assets/fonts/LibreBaskerville-Bold.ttf) format('woff');
+  font-family: 'NotoSans-Bold';
+  src: local('MyFont'), url(./assets/fonts/NotoSans-Bold.ttf) format('woff');
 }
 @font-face {
-  font-family: 'LibreBaskerville-Regular';
-  src: local('MyFont'), url(./assets/fonts/LibreBaskerville-Regular.ttf) format('woff');
+  font-family: 'NotoSans-Regular';
+  src: local('MyFont'), url(./assets/fonts/NotoSans-Regular.ttf) format('woff');
 }
